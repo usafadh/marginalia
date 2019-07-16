@@ -1,0 +1,9 @@
+deleting empty files after prepping
+
+ff <- dir("A", recursive=TRUE, full.names=TRUE)
+## Extract vector of empty files' names
+eff <- ff[file.info(ff)[["size"]]==0]
+## Remove empty files
+unlink(eff, recursive=TRUE, force=FALSE)
+
+use cosine to create matrix of cosines
