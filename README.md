@@ -8,7 +8,7 @@ The approach being taken is to search through the literary corpus looking for ke
 * tm -- text mining package by Ingo Feinerer and Kurt Hornik.
 * string manipulation and file i/o packages. Scripts in the code folder document the specific packages used in the code samples.
 
-The heavy lifting in producing the results is done with the lsa::textmatrix and lsa::lsa. The O/S was Windows 10 pro version 10.0.17763 Build 17763 running on an AMD FX-8320E eight-core processor with 16 gigabytes of RAM.
+The heavy lifting in producing the results is done with the lsa::textmatrix and lsa::cosine. The O/S was Windows 10 pro version 10.0.17763 Build 17763 running on an AMD FX-8320E eight-core processor with 16 gigabytes of RAM.
 
 
 
